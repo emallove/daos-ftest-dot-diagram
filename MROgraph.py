@@ -9,6 +9,10 @@ License: Python-like
 Requires: Python 2.3, dot, standard Unix tools  
 """
 
+# FIXME: reduce number of connections, e.g., avocadoTest should have just one
+# arrow to Test (not 20).
+
+
 import os,itertools
 
 PSVIEWER='gv'     # you may change these with
